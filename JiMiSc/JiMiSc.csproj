@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73FF5765-5129-46C0-A176-F0B911575C9D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JiMiSc</RootNamespace>
+    <AssemblyName>JiMiSc</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\index.css" />
+    <Content Include="img\3D眼镜.jpg" />
+    <Content Include="img\A.jpg" />
+    <Content Include="img\B.jpg" />
+    <Content Include="img\C.jpg" />
+    <Content Include="img\D.jpg" />
+    <Content Include="img\E.jpg" />
+    <Content Include="img\F.jpg" />
+    <Content Include="img\G.jpg" />
+    <Content Include="img\H.jpg" />
+    <Content Include="img\I.jpg" />
+    <Content Include="img\J.jpg" />
+    <Content Include="img\K.jpg" />
+    <Content Include="img\L.jpg" />
+    <Content Include="img\M.jpg" />
+    <Content Include="img\N.jpg" />
+    <Content Include="img\O.jpg" />
+    <Content Include="img\P.jpg" />
+    <Content Include="img\Q.jpg" />
+    <Content Include="img\首页2.png" />
+    <Content Include="img\首页3.png" />
+    <Content Include="img\首页4.png" />
+    <Content Include="js\.svn\all-wcprops" />
+    <Content Include="js\.svn\entries" />
+    <Content Include="js\.svn\text-base\myfocus-1.0.2.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.0.2.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.0.4.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.0.4.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.0.5.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.0.5.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.0.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.0.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.1.0.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.1.0.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.1.1.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.1.1.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.0.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.0.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.1.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.1.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.2.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.2.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.3.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.3.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.4.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-1.2.4.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-2.0.0.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-2.0.0.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-2.0.1.full.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-2.0.1.min.js.svn-base" />
+    <Content Include="js\.svn\text-base\myfocus-2.0.2 beta.full.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\.svn\entries" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_51xflash.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_51xflash.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_classicHB.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_classicHB.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_classicHC.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_classicHC.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_dleung.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_dleung.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_expo2010.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_expo2010.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_fancy.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_fancy.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_fscreen_tb.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_fscreen_tb.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_games_tb.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_games_tb.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_kdui.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_kdui.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_kiki.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_kiki.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_ladyQ.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_ladyQ.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_liquid.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_liquid.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_liuzg.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_liuzg.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_luluJQ.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_luluJQ.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_pconline.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_pconline.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_peijianmall.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_peijianmall.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_pithy_tb.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_pithy_tb.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_qiyi.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_qiyi.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_quwan.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_quwan.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_rapoo.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_rapoo.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_shutters.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_shutters.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_slide3D.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_slide3D.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_sohusports.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_sohusports.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_taobao2010.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_taobao2010.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_taobaomall.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_taobaomall.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_tbhuabao.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_tbhuabao.js.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_YSlider.css.svn-base" />
+    <Content Include="js\mf-pattern\.svn\text-base\mF_YSlider.js.svn-base" />
+    <Content Include="js\mf-pattern\img\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\.svn\prop-base\play.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\.svn\prop-base\Thumbs.db.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\.svn\prop-base\tit-ar.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\.svn\text-base\play.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\.svn\text-base\Thumbs.db.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\.svn\text-base\tit-ar.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\Thumbs.db" />
+    <Content Include="js\mf-pattern\img\mF_classicHB\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_classicHB\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_classicHB\.svn\prop-base\btn-blue.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_classicHB\.svn\prop-base\btn-gray.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_classicHB\.svn\text-base\btn-blue.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_classicHB\.svn\text-base\btn-gray.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_classicHC\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_classicHC\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_classicHC\.svn\prop-base\btn-bg.png.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_classicHC\.svn\prop-base\btn-red.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_classicHC\.svn\text-base\btn-bg.png.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_classicHC\.svn\text-base\btn-red.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_games_tb\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_games_tb\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_games_tb\.svn\prop-base\ar.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_games_tb\.svn\text-base\ar.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kdui\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_kdui\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_kdui\.svn\prop-base\dots.png.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kdui\.svn\prop-base\slider-arrows.png.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kdui\.svn\prop-base\Thumbs.db.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kdui\.svn\text-base\dots.png.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kdui\.svn\text-base\slider-arrows.png.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kdui\.svn\text-base\Thumbs.db.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kdui\Thumbs.db" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\prop-base\ar-left.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\prop-base\ar-right.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\prop-base\Thumbs.db.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\prop-base\tit-ar.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\text-base\ar-left.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\text-base\ar-right.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\text-base\Thumbs.db.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kiki\.svn\text-base\tit-ar.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_kiki\Thumbs.db" />
+    <Content Include="js\mf-pattern\img\mF_pithy_tb\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_pithy_tb\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_pithy_tb\.svn\prop-base\btn.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_pithy_tb\.svn\prop-base\turn.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_pithy_tb\.svn\text-base\btn.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_pithy_tb\.svn\text-base\turn.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_qiyi\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_qiyi\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_qiyi\.svn\prop-base\bg.jpg.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_qiyi\.svn\prop-base\loading.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_qiyi\.svn\text-base\bg.jpg.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_qiyi\.svn\text-base\loading.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_sohusports\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_sohusports\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_sohusports\.svn\prop-base\sh-btn.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_sohusports\.svn\text-base\sh-btn.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_taobaomall\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_taobaomall\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_taobaomall\.svn\prop-base\btn-bg2.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_taobaomall\.svn\text-base\btn-bg2.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_tbhuabao\.svn\all-wcprops" />
+    <Content Include="js\mf-pattern\img\mF_tbhuabao\.svn\entries" />
+    <Content Include="js\mf-pattern\img\mF_tbhuabao\.svn\prop-base\btn-bg.gif.svn-base" />
+    <Content Include="js\mf-pattern\img\mF_tbhuabao\.svn\text-base\btn-bg.gif.svn-base" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\首页1.png" />
+    <Content Include="index.html" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\play.gif" />
+    <Content Include="js\mf-pattern\img\mF_51xflash\tit-ar.gif" />
+    <Content Include="js\mf-pattern\img\mF_classicHB\btn-blue.gif" />
+    <Content Include="js\mf-pattern\img\mF_classicHB\btn-gray.gif" />
+    <Content Include="js\mf-pattern\img\mF_classicHC\btn-bg.png" />
+    <Content Include="js\mf-pattern\img\mF_classicHC\btn-red.gif" />
+    <Content Include="js\mf-pattern\img\mF_games_tb\ar.gif" />
+    <Content Include="js\mf-pattern\img\mF_kdui\dots.png" />
+    <Content Include="js\mf-pattern\img\mF_kdui\slider-arrows.png" />
+    <Content Include="js\mf-pattern\img\mF_kiki\ar-left.gif" />
+    <Content Include="js\mf-pattern\img\mF_kiki\ar-right.gif" />
+    <Content Include="js\mf-pattern\img\mF_kiki\tit-ar.gif" />
+    <Content Include="js\mf-pattern\img\mF_pithy_tb\btn.gif" />
+    <Content Include="js\mf-pattern\img\mF_pithy_tb\turn.gif" />
+    <Content Include="js\mf-pattern\img\mF_qiyi\bg.jpg" />
+    <Content Include="js\mf-pattern\img\mF_qiyi\loading.gif" />
+    <Content Include="js\mf-pattern\img\mF_sohusports\sh-btn.gif" />
+    <Content Include="js\mf-pattern\img\mF_taobaomall\btn-bg2.gif" />
+    <Content Include="js\mf-pattern\img\mF_tbhuabao\btn-bg.gif" />
+    <Content Include="js\mf-pattern\mF_51xflash.css" />
+    <Content Include="js\mf-pattern\mF_51xflash.js" />
+    <Content Include="js\mf-pattern\mF_classicHB.css" />
+    <Content Include="js\mf-pattern\mF_classicHB.js" />
+    <Content Include="js\mf-pattern\mF_classicHC.css" />
+    <Content Include="js\mf-pattern\mF_classicHC.js" />
+    <Content Include="js\mf-pattern\mF_dleung.css" />
+    <Content Include="js\mf-pattern\mF_dleung.js" />
+    <Content Include="js\mf-pattern\mF_expo2010.css" />
+    <Content Include="js\mf-pattern\mF_expo2010.js" />
+    <Content Include="js\mf-pattern\mF_fancy.css" />
+    <Content Include="js\mf-pattern\mF_fancy.js" />
+    <Content Include="js\mf-pattern\mF_fscreen_tb.css" />
+    <Content Include="js\mf-pattern\mF_fscreen_tb.js" />
+    <Content Include="js\mf-pattern\mF_games_tb.css" />
+    <Content Include="js\mf-pattern\mF_games_tb.js" />
+    <Content Include="js\mf-pattern\mF_kdui.css" />
+    <Content Include="js\mf-pattern\mF_kdui.js" />
+    <Content Include="js\mf-pattern\mF_kiki.css" />
+    <Content Include="js\mf-pattern\mF_kiki.js" />
+    <Content Include="js\mf-pattern\mF_ladyQ.css" />
+    <Content Include="js\mf-pattern\mF_ladyQ.js" />
+    <Content Include="js\mf-pattern\mF_liquid.css" />
+    <Content Include="js\mf-pattern\mF_liquid.js" />
+    <Content Include="js\mf-pattern\mF_liuzg.css" />
+    <Content Include="js\mf-pattern\mF_liuzg.js" />
+    <Content Include="js\mf-pattern\mF_luluJQ.css" />
+    <Content Include="js\mf-pattern\mF_luluJQ.js" />
+    <Content Include="js\mf-pattern\mF_pconline.css" />
+    <Content Include="js\mf-pattern\mF_pconline.js" />
+    <Content Include="js\mf-pattern\mF_peijianmall.css" />
+    <Content Include="js\mf-pattern\mF_peijianmall.js" />
+    <Content Include="js\mf-pattern\mF_pithy_tb.css" />
+    <Content Include="js\mf-pattern\mF_pithy_tb.js" />
+    <Content Include="js\mf-pattern\mF_qiyi.css" />
+    <Content Include="js\mf-pattern\mF_qiyi.js" />
+    <Content Include="js\mf-pattern\mF_quwan.css" />
+    <Content Include="js\mf-pattern\mF_quwan.js" />
+    <Content Include="js\mf-pattern\mF_rapoo.css" />
+    <Content Include="js\mf-pattern\mF_rapoo.js" />
+    <Content Include="js\mf-pattern\mF_shutters.css" />
+    <Content Include="js\mf-pattern\mF_shutters.js" />
+    <Content Include="js\mf-pattern\mF_slide3D.css" />
+    <Content Include="js\mf-pattern\mF_slide3D.js" />
+    <Content Include="js\mf-pattern\mF_sohusports.css" />
+    <Content Include="js\mf-pattern\mF_sohusports.js" />
+    <Content Include="js\mf-pattern\mF_taobao2010.css" />
+    <Content Include="js\mf-pattern\mF_taobao2010.js" />
+    <Content Include="js\mf-pattern\mF_taobaomall.css" />
+    <Content Include="js\mf-pattern\mF_taobaomall.js" />
+    <Content Include="js\mf-pattern\mF_tbhuabao.css" />
+    <Content Include="js\mf-pattern\mF_tbhuabao.js" />
+    <Content Include="js\mf-pattern\mF_YSlider.css" />
+    <Content Include="js\mf-pattern\mF_YSlider.js" />
+    <Content Include="js\myfocus-2.0.1.min.js" />
+    <Content Include="PJ.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="js\.svn\prop-base\" />
+    <Folder Include="js\.svn\props\" />
+    <Folder Include="js\.svn\tmp\prop-base\" />
+    <Folder Include="js\.svn\tmp\props\" />
+    <Folder Include="js\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\.svn\prop-base\" />
+    <Folder Include="js\mf-pattern\.svn\props\" />
+    <Folder Include="js\mf-pattern\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\.svn\prop-base\" />
+    <Folder Include="js\mf-pattern\img\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\.svn\text-base\" />
+    <Folder Include="js\mf-pattern\img\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_51xflash\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_51xflash\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_51xflash\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_51xflash\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_classicHB\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_classicHB\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_classicHB\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_classicHB\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_classicHC\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_classicHC\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_classicHC\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_classicHC\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_games_tb\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_games_tb\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_games_tb\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_games_tb\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_kdui\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_kdui\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_kdui\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_kdui\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_kiki\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_kiki\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_kiki\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_kiki\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_pithy_tb\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_pithy_tb\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_pithy_tb\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_pithy_tb\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_qiyi\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_qiyi\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_qiyi\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_qiyi\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_sohusports\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_sohusports\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_sohusports\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_sohusports\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_taobaomall\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_taobaomall\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_taobaomall\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_taobaomall\.svn\tmp\text-base\" />
+    <Folder Include="js\mf-pattern\img\mF_tbhuabao\.svn\props\" />
+    <Folder Include="js\mf-pattern\img\mF_tbhuabao\.svn\tmp\prop-base\" />
+    <Folder Include="js\mf-pattern\img\mF_tbhuabao\.svn\tmp\props\" />
+    <Folder Include="js\mf-pattern\img\mF_tbhuabao\.svn\tmp\text-base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{3268b53a-0135-40a8-9a03-e8c682eb35c6}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{846863f1-9271-44b5-b39b-65f3e2e545ef}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{dc44d27b-294c-4846-95ae-e61a8742ad81}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13606</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:13606/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

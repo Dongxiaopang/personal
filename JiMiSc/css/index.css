@@ -1,0 +1,136 @@
+﻿body {
+   
+} 
+#myFocus {
+            width: 1141px;
+            height: 570px;
+        }
+
+         a{
+            text-decoration: none;
+           
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+        list-style-type:none;
+        }
+
+        .clearfix {
+            list-style: none;
+        }
+
+            .clearfix li {
+                float: left;
+                padding-left: 20px;
+            }
+
+            .clearfix a {
+                color: white;
+            }
+
+        .clearfix2 li {
+            float: left;
+            padding-left: 20px;
+        }
+
+        .clearfix2 {
+            float: right;
+        }
+
+            .clearfix2 li a {
+                color: black;
+            }
+
+            .clearfix2 li ul {
+                margin-left: 100px;
+            }
+
+                .clearfix2 li ul li {
+                    position: relative;
+                }
+
+        .nav-fuwu-list p a.f1 {
+            background-position: left 0;
+        }
+
+        .span3 {
+            float: left;
+            margin-left: 80px;
+            line-height: 30px;
+        }
+        .span3 p{
+            overflow:hidden;
+            color:white;
+        }
+            .span3 a {
+                color: black;
+            }
+
+        .container {
+            width: 1140px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .row-fluid {
+        }
+
+        .span3 .ti-tel {
+            font-size: 24px;
+            font-weight: 600;
+            color: black;
+        }
+
+        .span3 .ti-time {
+            color: gray;
+        }
+
+        .span3 .ti {
+            text-align: center;
+        }
+
+        .ti-span {
+            line-height: 40px;
+            margin-left: 200px;
+            height: 130px;
+        }
+
+        .row-fluid {
+            border: 1px solid gray;
+        }
+
+        .s4 .ti {
+            color: black;
+            font-size: 18px;
+        }
+
+        .s4 a {
+            font-size: 14px;
+        }
+
+        .clearfix .li-lrg {
+            padding-left: 250px;
+
+        }
+        .PJ_page{
+            height:880px;
+            /*border:1px solid red;*/
+            margin-top:80px;
+        }
+        .PJ_page .PJ_a1 a{
+            
+            font-size:14px;
+        }
+        .PJ_fsPage{
+            width:96.7%;
+            height:50px;
+            margin-top:10px;
+            padding:20px;
+            background-color:#efefef;
+        }
+        
+        

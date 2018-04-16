@@ -1,0 +1,12 @@
+G:\个人项目\JiMiSc\JiMiSc\bin\JiMiSc.dll.config
+G:\个人项目\JiMiSc\JiMiSc\bin\JiMiSc.dll
+G:\个人项目\JiMiSc\JiMiSc\bin\JiMiSc.pdb
+G:\个人项目\JiMiSc\JiMiSc\obj\Debug\JiMiSc.csprojResolveAssemblyReference.cache
+G:\个人项目\JiMiSc\JiMiSc\obj\Debug\JiMiSc.dll
+G:\个人项目\JiMiSc\JiMiSc\obj\Debug\JiMiSc.pdb
+G:\个人项目\JiMiSc\JiMiSc\bin\BLL.dll
+G:\个人项目\JiMiSc\JiMiSc\bin\DAL.dll
+G:\个人项目\JiMiSc\JiMiSc\bin\Model.dll
+G:\个人项目\JiMiSc\JiMiSc\bin\BLL.pdb
+G:\个人项目\JiMiSc\JiMiSc\bin\DAL.pdb
+G:\个人项目\JiMiSc\JiMiSc\bin\Model.pdb
